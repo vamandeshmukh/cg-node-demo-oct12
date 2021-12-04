@@ -9,7 +9,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/home', (request, response) => {
-    response.send(`Welcome to home page.`);
+    response.send(`<h1>Home page</h1><p>Welcome to home page.</p>`);
     console.log(`home`);
 });
 
