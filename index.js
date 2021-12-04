@@ -12,3 +12,6 @@ app.listen(port, () => {
     console.log(`App is running...`);
 
 });
+
+// go to CMD and run - 
+// NPM start 
